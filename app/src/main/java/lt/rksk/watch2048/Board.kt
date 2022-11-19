@@ -7,6 +7,4 @@ class Board {
         listOf(0, 0, 0, 0),
         listOf(0, 0, 0, 0)
     ).map { line -> line.map { number -> Tile(number) } }
-
-
 }

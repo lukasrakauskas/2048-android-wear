@@ -23,8 +23,6 @@ class Game {
             2
         }
 
-        println("$row, $column = $value")
-
         board.matrix[row][column].value = value
 
         listener.onUpdateBoard(board)
